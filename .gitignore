@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# experiments run from the assignment notebooks
+assignment/experiments/
+
+# uv project environment
+.venv/

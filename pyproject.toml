@@ -1,0 +1,21 @@
+[project]
+name = "fake-followers-homework"
+version = "0.1.0"
+description = "Homework: buying fake followers in an agent-based model of social media creators"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24,<3",
+    "pandas>=2,<3",
+    "matplotlib>=3.7,<4",
+    "nbformat>=5.7,<6",
+    "nbclient>=0.8,<1",
+    "ipykernel>=6.25,<8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fake_followers"]
